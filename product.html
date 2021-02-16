@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Products Lab 1</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="sheet.css" rel="stylesheet">
+  <script src="jquery.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Action</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body w-100">
+          <div class="row pb-2">
+
+            <div class="col-4 text-center bg-light img-thumbnail  mb-2">
+              <img src="1.png" width="150px" alt="...">
+            </div>
+
+            <div class="col-8 pb-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer, This is a wider card with supporting text below as a
+                    natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark w-100">
+    <a class="navbar-brand ps-5 " href="#"> E-Commerce</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav float-end pe-5">
+        <li class="nav-item  ">
+          <a class="nav-link" href="register.html">Register </a>
+        </li>
+        <li class="nav-item nav-link ">
+          |
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link" href="login.html"> Login </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container mt-3 mb-5  ">
+    <div class="text-center mt-3 mb-2 text-light  ">
+      <h1>Welcom in Lap Store</h1>
+    </div>
+    <div class="row  p-2 justify-content-between ">
+      <div class="col-4 text-center  img-thumbnail  mb-2   pe-3" >
+        <img src="1.png" width="300px" alt="...">
+      </div>
+
+      <div class="col-8 p-0 " >
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Product</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer, This is a wider card with supporting text below as a natural
+              lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="text-left">
+              <button type="button" class="btn btn-primary float-end ms-4 " style="width: 150px;" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Checkout</button>
+              <button type="button" class="btn btn-primary float-end " style="width: 150px;" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-lg-3 col-sm-6 p-2  mb-sm-2 p-0 ">
+        <div class="card">
+          <div class="badge bg-primary text-wrap ">
+            <p class="header">Asus Rog 551</p>
+          </div>
+          <img src="1.png" class="card-img-top p-0" alt="...">
+          <div class="card-footer ">
+            <button type="button" class="btn btn-primary info">Product Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 p-2  mb-sm-2 p-0 ">
+        <div class="card">
+          <div class="badge bg-primary text-wrap ">
+            <p class="header">Acer Gamming JR</p>
+          </div>
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary info">Product Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 p-2  mb-sm-2 p-0 ">
+        <div class="card">
+          <div class="badge bg-primary text-wrap ">
+            <p class="header">Red Dragon</p>
+          </div>
+          <img src="1.png" class="card-img-top" alt="...">
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary info">Product Info</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 p-2  mb-sm-2 p-0 ">
+        <div class="card">
+          <div class="badge bg-primary text-wrap ">
+            <p class="header">Ultimate ROG</p>
+          </div>
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary info">Product Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center p-2  fixed-bottom">
+      <!-- Copyright -->
+      <p class="text-light m-0">Made With ITI</p>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+    <script src="action.js"></script>
+
+</body>
+
+</html>
